@@ -1,0 +1,27 @@
+<br><br><br>
+<div class="container">
+      <div class="row">
+        <!-- Blog Entries Column -->
+        <div class="col-md-8">
+            <h1 class="card-my-4">Details Of The Post
+              <br><small>Blogs for 2017</small>
+            </h1>
+                <!-- Blog Post -->
+                <div class="card mb-4">
+                    <img class="img-responsive" src="assets/images/image10.png" alt="Card image cap">
+                    <div class="card-body">
+                          <h2 class="card-title">{{blog.title}}</h2>
+                          <p class="card-text">post</p>
+                          <a [routerLink]="['/blog']" class="btn btn-primary">Go Back &rarr;</a>
+                      </div>
+                      <div class="card-footer text-muted">
+                              Posted on datetime by
+                          <a href="#">author</a>
+                           <a class="btn btn-warning" [routerLink]="['/blog/edit']">edit Post</a>
+                    </div> 
+                </div>
+        </div>
+      </div>
+      <!-- /.row -->
+  </div>
+<!-- /.container -->
